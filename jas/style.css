@@ -1,0 +1,66 @@
+body {
+  background-image: url("https://live.staticflickr.com/7825/46228311934_044f2d2bbb_h.jpg");
+  background-size: cover;
+  font-family: 'Arial', sans-serif; /* Changed font */
+  font-weight: bold; /* Increased weight */
+  text-align: center;
+  height: 100vh;
+  margin: 0; /* Remove default margin */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.container {
+  background: rgba(255, 255, 255, 0.9);
+  max-width: 600px;
+  margin: 20px;
+  padding: 20px;
+  border: 3px solid #333;
+  border-radius: 15px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+
+h1 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 24px;
+
+
+h2 {
+  font-size: 60px;
+  margin-top: 0;
+  margin-bottom: 20px;
+  color: #2C2891;
+}
+
+
+button {
+  border: none;
+  padding: 10px 20px;
+  color: white;
+  font-weight: bold;
+  width: 200px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+
+#increment-btn {
+  background: #4CAF50;
+}
+
+
+#save-btn {
+  background: #FF5722;
+}
+
+
+#save-el {
+  font-size: 20px;
+  margin-top: 20px;
+}
+}
